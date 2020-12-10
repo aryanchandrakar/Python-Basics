@@ -126,3 +126,39 @@ c=Car('BMW',2017) # creating instance of outer class
 e=c.Engine(123) # creating instance of the inner class using object of the outer class
 e.start()
 
+
+# By Composition(Has-A Relation)
+# class Engine:
+#    # engine specific functionality
+#    '''
+# class Car:
+#    e = Engine()
+#    '''
+#
+# inside class Car also we can create different variables and methods. 
+# Using object reference of Engine class inside Car class we can easily access each and 
+# every member of Engine class inside Car class.
+
+# By Inheritance(Is-A Relation)
+
+# has a relation in class
+print("\n\n--------------has a relation between class-------------")
+class Patient:
+    def __init__(self,name,age):
+        self.nm=name
+        self.ag=age
+        self.clinical=[]
+    def addClinical(self,clinica):
+        self.clinical.append(clinica) # has a relation used to call an object
+class Clinical:
+    def __init__(self,compname,compvalue):
+        self.comnm=compname
+        self.value=compvalue
+
+p=Patient("Joe",45)
+c1=Clinical('bp','90/120')
+p.addClinical(c1) # using has a realtion to access one class from another
+print(p.nm)
+for e in p.clinical:
+    print(e.comnm)
+    print(e.value)
