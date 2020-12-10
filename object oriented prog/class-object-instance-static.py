@@ -89,6 +89,26 @@ class Stud:
 s1=Stud(1,"Joe")
 s2=Stud(2,"John")
 print(s1.major,s1.rolno,s1.name) # instance field different for both object as per defined
+
+
+# By Inheritance(Is-A Relation)
+#  Inheritance is a mechanism that allows us to inherit all the properties from another class. 
+#  The class from which the properties and functionalities are utilized is called the parent 
+#  class (also called as Base Class). The class which uses the properties from another class is 
+#  called as Child Class (also known as Derived class). Inheritance is also called an Is-A Relation.
+#
+# Parent class
+# class Parent :        
+#            # Constructor
+#            # Variables of Parent class
+# 
+#            # Methods
+# 
+# # Child class inheriting Parent class 
+# class Child(Parent) :  
+#            # constructor of child class
+#            # variables of child class
+#            # methods of child class
 print(s2.major,s2.rolno,s2.name) # major static field same for both objects
 print(Stud.major) # can access the static field directly using the class, no need of objects
 
