@@ -1,3 +1,9 @@
+# visit https://pythex.org/ to generate regular expression
+
+
+
+
+
 # Regular expressions also known as REG X are a bunch of characters or a pattern that will create to search
 # for a string within a given string or to validate the given string to see if it follows the given pattern
 
