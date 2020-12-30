@@ -142,3 +142,6 @@ print(q3.flatten()) # convert multi dim to single dim array
 
 print(eye(3)) # a 3x3 dim matrix with diag. element as 1
 
+
+
+# https://numpy.org/doc/1.19/ refer here for more related topics on numpy
