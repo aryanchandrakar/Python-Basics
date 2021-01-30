@@ -62,4 +62,4 @@ print(s.upper(), s.lower(), s.title())  # all upper case, all lower case, all fi
 s=input()
 for i in s[:].split():
         s=s.replace(i,i.capitalize())
-    return s
+print(s)
