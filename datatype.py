@@ -56,3 +56,10 @@ print(s.count("e"))  # occurence of charater number of times
 print(s.replace("hey", "hello"))  # replacing string parts "s.replace("old","new")"
 
 print(s.upper(), s.lower(), s.title())  # all upper case, all lower case, all first character uppercase
+
+
+# in case we wanna captialize only the first alphabatical letter-- abc -> Abc but 12abc -> 12abc stays
+s=input()
+for i in s[:].split():
+        s=s.replace(i,i.capitalize())
+    return s
