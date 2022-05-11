@@ -10,3 +10,6 @@
 8. `str.isdigit()` - checks if all the characters of a string are digits (0-9); '1234'.isdigit() -> True
 9. `str.islower()` - checks if all the characters of a string are lowercase characters (a-z); 'abcd123#'.islower() -> True
 10. `str.isupper()` - checks if all the characters of a string are uppercase characters (A-Z); 'ABCD123#'.isupper() -> True
+11. `str.ljust(width)` - This method returns a left aligned string of length width; 'abcdefghij'.ljust(20,'-') -> abcdefghij----------  
+12. `str.center(width)` - returns a centered string of length width; 'abcdefghij'.center(20,'-') -> -----abcdefghij-----
+13. `str.rjust(width)` - returns a right aligned string of length width; 'abcdefghij'.rjust(20,'-') -> ----------abcdefghij
