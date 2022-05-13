@@ -46,7 +46,7 @@ import textwrap
 
 def wrap(string, max_width):
     wrapper=textwrap.TextWrapper(width=4)
-    strlis =(wrapper.wrap(text=string))
+    strlis =(textwrap.wrap(string, max_width))
     return ("\n".join(strlis))
 
 if __name__ == '__main__':
