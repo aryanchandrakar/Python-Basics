@@ -52,6 +52,30 @@ Sample Output
 ---------.|..|..|.---------
 ------------.|.------------
 """
+import math
+
+x,y=input().split()
+mid=math.ceil(int(x)/2)
+design=mid-1
+
+# upper half
+for i in range(1,design+1): # 1,2,3
+    undersco=int(y)-(3*((i*2)-1)) 
+    des=i*2-1
+    print((int(undersco/2)*"-")+(des*".|.") +(int(undersco/2)*"-"))
+
+# WELCOME
+print((int((int(y)-7)/2)*"-")+"WELCOME"+(int((int(y)-7)/2)*"-"))
+
+# Lower half
+for i in range(design,0,-1): 
+    undersco=int(y)-(3*((i*2)-1)) 
+    des=i*2-1
+    print((int(undersco/2)*"-")+(des*".|.") +(int(undersco/2)*"-"))
+
+
+################## OR ####################
+
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 n,m=(input()).split()
