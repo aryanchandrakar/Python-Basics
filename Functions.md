@@ -25,3 +25,7 @@
 1. `oct(i)[m:n]` - change base of int i to oct, and displays the values from index m to n.
 2. `hex(i)[m:n]` - change base of int i to hexadecimal, and displays the values from index m to n.
 3. `bin(i)[m:n]` - change base of int i to binary, and displays the values from index m to n.
+
+## ARRAY
+1. `array.remove(element_value)` - removes the element from the array
+2. `array.append(element_value)` - add value at the end of the array
